@@ -1,0 +1,13 @@
+/*WxPusher访问https://wxpusher.zjiecode.com/
+用于一对一微信推送
+*/
+[
+  {
+    "pt_pin": "",
+    "Uid": ""
+  },
+  {
+    "pt_pin": "",
+    "Uid": ""
+  }
+]
