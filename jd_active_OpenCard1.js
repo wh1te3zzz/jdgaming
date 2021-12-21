@@ -26,11 +26,11 @@ All变量适用
 请求太频繁会被黑ip
 过10分钟再执行
 
-cron:30 5 11-25 12 *
+cron:30 1 11-25 12 *
 ============Quantumultx===============
 [task_local]
 #12.10~12.25 狂欢日联合盛典
-30 5 11-25 12 * https://github.com/wh1te3zzz/jdgaming/blob/main/jd_active_OpenCard1.js, tag=12.10~12.25 狂欢日联合盛典, enabled=true
+30 1 11-25 12 * https://github.com/wh1te3zzz/jdgaming/blob/main/jd_active_OpenCard1.js, tag=12.10~12.25 狂欢日联合盛典, enabled=true
 
 */
 let opencard_addSku = "false"
