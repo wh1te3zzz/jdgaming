@@ -19,7 +19,6 @@ opencard3="true"
 openwait_All 所有
 openwait3="0"
 
-
 All变量适用
 ————————————————
 入口：[ 12.20~1.5 双旦寻宝 玩转大富翁 (https://lzdz1-isv.isvjcloud.com/dingzhi/customized/common/activity?activityId=dfw2021121702rics9xrkw5mpka&shareUuid=8c15a74e1fa14b80bcc79a5492f6e0d4)]
