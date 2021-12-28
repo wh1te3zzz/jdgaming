@@ -20,7 +20,6 @@ opencard7="true"
 openwait_All 所有
 openwait7="0"
 
-
 All变量适用
 ————————————————
 入口：[ 12.18~12.30 京选大牌 超会宠你 (https://lzdz1-isv.isvjcloud.com/dingzhi/dz/openCard/activity?activityId=4c1162ed00874ba5ac0447c30cc45f8a&shareUuid=179ba2f5a1b4401f998ee2bb2e4a4afa)]
