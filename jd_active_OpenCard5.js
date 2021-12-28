@@ -23,14 +23,12 @@ opencard5="true"
 openwait_All 所有
 openwait5="0"
 
-
 All变量适用
 ————————————————
 入口：[ 12.21~12.30 联合开卡 (https://3.cn/1-03Mebc9)]
 
 请求太频繁会被黑ip
 过10分钟再执行
-
 
 cron:30 2 22-30/2 12 *
 ============Quantumultx===============
