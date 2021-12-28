@@ -23,7 +23,6 @@ opencard8="true"
 openwait_All 所有
 openwait8="0"
 
-
 All变量适用
 ————————————————
 入口：[ 12.23~1.2 联合开卡 (https://3.cn/103-Nmnge)]
