@@ -6,7 +6,7 @@ TG https://t.me/duckjobs
 
 10 8 * * * jd_mpdzcar.js
 */
-const $ = new Env("头文子J");
+const $ = new Env("头文字J");
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const notify = $.isNode() ? require('./sendNotify') : '';
 let cookiesArr = [], cookie = ''
