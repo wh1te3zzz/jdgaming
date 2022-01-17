@@ -28,11 +28,11 @@ All变量适用
 请求太频繁会被黑ip
 过10分钟再执行
 
-cron:30 3 13-20/3 1 *
+cron:30 6 13-20 1 *
 ============Quantumultx===============
 [task_local]
 #1.13~1.20 瓜分千万京豆 免费抽大奖
-30 3 13-20/3 1 * https://github.com/wh1te3zzz/jdgaming/blob/main/jd_active_OpenCard21.js, tag=1.13~1.20 瓜分千万京豆 免费抽大奖, enabled=true
+30 6 13-20 1 * https://github.com/wh1te3zzz/jdgaming/blob/main/jd_active_OpenCard21.js, tag=1.13~1.20 瓜分千万京豆 免费抽大奖, enabled=true
 
 */
 let guaopencard_addSku = "false"
