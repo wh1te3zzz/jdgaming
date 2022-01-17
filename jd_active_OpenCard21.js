@@ -20,7 +20,6 @@ guaopencard102="true"
 guaopenwait_All 所有
 guaopenwait102="0"
 
-
 All变量适用
 ————————————————
 入口：[ 1.13~1.20 瓜分千万京豆 免费抽大奖 (https://lzdz1-isv.isvjcloud.com/dingzhi/shop/league/activity?activityId=dz220107100001616201shop&shareUuid=852e22f51c20430495031499db0a1dcc)]
