@@ -66,9 +66,9 @@ Object.keys(jdCookieNode).forEach((item) => {
         }
     }
     let authorCode = []
-    let res = await getAuthorShareCode('2bed87aeca2d44b784646a09076ee1aa')
+    let res = await getAuthorShareCode('d94952b45b834e76b32bec94e515534c','c70ea329949c4c9f98c02ab76ffdb787','3ffbcbf8d2194bcd9c6f5512ae620677')
     if (!res) {
-        res = await getAuthorShareCode('2bed87aeca2d44b784646a09076ee1aa')
+        res = await getAuthorShareCode('d94952b45b834e76b32bec94e515534c','c70ea329949c4c9f98c02ab76ffdb787','3ffbcbf8d2194bcd9c6f5512ae620677')
     }
     if (res) {
         authorCode = res.sort(() => 0.5 - Math.random())
