@@ -1,7 +1,7 @@
 /*
 金榜创造营
 活动入口：https://h5.m.jd.com/babelDiy/Zeus/2H5Ng86mUJLXToEo57qWkJkjFPxw/index.html
-活动时间：2021-05-21至2021-12-31
+活动时间：2021-05-21 至 2021-12-31
 脚本更新时间：2021-05-28 14:20
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 ===================quantumultx================
