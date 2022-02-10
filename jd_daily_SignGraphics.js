@@ -1,6 +1,5 @@
 /* 
 cron 14 10 * * * https://raw.githubusercontent.com/smiek2121/scripts/master/jd_sign_graphics.js
-
 */
 
 // const validator = require('./JDJRValidator_Pure.js');
