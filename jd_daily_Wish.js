@@ -1,6 +1,6 @@
 /*
 众筹许愿池
-活动入口：京东-京东众筹-众筹许愿池
+入口：京东-京东众筹-众筹许愿池
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 ===============Quantumultx===============
 [task_local]
