@@ -3,7 +3,6 @@
  * @Contact: https://t.me/X1a0He
  * @Date: 2021-09-05 23:20:00
  * @LastEditTime: 2021-09-05 23:20:00
- * @LastEditors: X1a0He
  * @Description: 清空购物车，支持环境变量设置关键字，用@分隔，使用前请认真看对应注释
  */
 const $ = new Env('清空购物车');
