@@ -1,6 +1,5 @@
 /*
 京东月资产变动通知
-by @jiulan
 更新时间：2021-06-16 12:00
 脚本兼容: QuantumultX, Surge,Loon, JSBox, Node.js
 =================================Quantumultx=========================
