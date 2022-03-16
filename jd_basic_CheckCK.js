@@ -1,6 +1,6 @@
 /*
 cron "30 * * * *" jd_basic_CheckCK.js, tag:京东CK检测
- */
+*/
 //
 const $ = new Env('京东CK检测');
 const notify = $.isNode() ? require('./sendNotify') : '';
