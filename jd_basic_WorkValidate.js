@@ -13,6 +13,7 @@ $.setOptions({
 });
 $.readme = `
 58 7,15,23 * * * task ${$.runfile}
+
 exprot ${$.runfile}=50  #限制跑验证码账户个数
 export JDJR_SERVER=ip  #如获取不到验证码,本地先获取iv.jd.com的ip,再自行添加环境变量
 `
