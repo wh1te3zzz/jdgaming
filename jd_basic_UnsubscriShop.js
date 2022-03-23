@@ -18,6 +18,7 @@ cron "55 23 * * *" script-path=jd_unsubscribe.js,tag=取关京东店铺商品
 ===========小火箭========
 取关京东店铺商品 = type=cron,script-path=jd_unsubscribe.js, cronexpr="55 23 * * *", timeout=3600, enable=true
  */
+
 const $ = new Env('取关京东店铺和商品');
 //Node.js用户请在jdCookie.js处填写京东ck;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
