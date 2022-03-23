@@ -1,7 +1,6 @@
 /*
 入口 极速版 赚金币 推一推
 助力前三
-
  [task_local]
 #搞基大神-推一推
 3 1 * * * http://47.101.146.160/scripts/jd_tyt.js, tag=搞基大神-推一推, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
