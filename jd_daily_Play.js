@@ -4,7 +4,6 @@
 [task_local]
 #玩一玩成就
 0 8,22 * * * jd_wyw.js, tag=玩一玩成就, img-url=https://raw.githubusercontent.com/tsukasa007/icon/master/jd_wyw.png, enabled=true
-
 ================Loon==============
 [Script]
 cron "0 8,22 * * *" script-path=jd_wyw.js,tag=玩一玩成就
