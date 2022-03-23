@@ -16,6 +16,7 @@ cron "15 10 * * *" script-path=https://raw.githubusercontent.com/jiulan/platypus
 ====================================小火箭=============================
 汪汪乐园提现 = type=cron,script-path=https://raw.githubusercontent.com/jiulan/platypus/main/scripts/jd_joy_tx.js, cronexpr="15 10 * * *", timeout=3600, enable=true
  */
+
 const $ = new Env('汪汪乐园提现');
 const notify = $.isNode() ? require('./sendNotify') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
