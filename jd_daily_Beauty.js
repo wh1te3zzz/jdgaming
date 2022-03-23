@@ -6,6 +6,7 @@ https://raw.githubusercontent.com/aTenb/jdOpenSharePicker/master/jd_beautyStudy.
 活动入口：京东app首页-美妆馆-底部中间按钮
 11 6,11,20 * * * jd_beauty.js, tag=美丽研究院, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png, enabled=true
  */
+
 const $ = new Env('美丽研究院');
 const notify = $.isNode() ? require('./sendNotify') : '';
 console.log('已废弃,能不能用随缘!!!')
