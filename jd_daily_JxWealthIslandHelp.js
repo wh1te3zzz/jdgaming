@@ -5,7 +5,6 @@
   默认按账号顺序提交
   如需自定义请在环境变量[gua_wealth_island_codeId](只提交前3个)例:
   gua_wealth_island_codeId="3,5,8"
-
   先账号互助完再助力助力池
   默认其余的助力给助力池
   如果介意请不要使用本脚本
