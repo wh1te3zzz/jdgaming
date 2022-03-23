@@ -30,7 +30,7 @@ cron:30 2 21-31/3 3 *
 ============Quantumultx===============
 [task_local]
 #雅诗兰黛奢雅邀请入会有礼
-30 2 21-31/3 3 * jd_active_OpenCard48.js, tag=雅诗兰黛奢雅邀请入会有礼, enabled=true
+30 2 21-31/3 3 * https://github.com/wh1te3zzz/jdgaming/edit/main/jd_active_OpenCard48.js, tag=雅诗兰黛奢雅邀请入会有礼, enabled=true
 
 */
 let guaopencard = "false"
@@ -84,7 +84,7 @@ let activityCookie =''
   }
   $.joinStatus = false
   $.activityId = "2203100037674501"
-  $.shareUuid = "dc34969c132e43bca5ab33eab64f6a13"
+  $.shareUuid = "1747409b3ff2431d97dafa078a6d1f7c"
   console.log(`入口:\nhttps://lzkjdz-isv.isvjcloud.com/esteelauder/inviteNew/activityPage?activityId=2203100037674501&inviterUuid=${$.shareUuid}`)
   
   for (let i = 0; i < cookiesArr.length; i++) {
