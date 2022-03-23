@@ -1,5 +1,4 @@
 /*
-
 脚本默认会帮我助力开工位，介意请添加变量HELP_JOYPARK，false为不助力
 export HELP_JOYPARK=""
 
