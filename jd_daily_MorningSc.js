@@ -5,6 +5,7 @@
 备注：支付一元才能参与活动，填写环境变量morningScPins给指定账号打卡
 cron 30 6,7 * * * https://raw.githubusercontent.com/cdle/jd_study/main/jd_morningSc.js
 */
+
 const $ = new Env("早起赢现金")
 const ua = `jdltapp;iPhone;3.1.0;${Math.ceil(Math.random()*4+10)}.${Math.ceil(Math.random()*4)};${randomString(40)}`
 let cookiesArr = []
