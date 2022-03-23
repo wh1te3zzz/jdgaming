@@ -8,6 +8,7 @@ Last Modified time: 2021-5-19 12:27:16
 完成分享任务得猪粮
 已支持IOS双京东账号,Node.js支持N个京东账号
 脚本兼容: QuantumultX, Surge, Loon, 小火箭，JSBox, Node.js
+
 ===============Quantumultx===============
 [task_local]
 #京东金融养猪猪
