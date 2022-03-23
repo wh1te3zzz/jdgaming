@@ -2,7 +2,6 @@
 const $ = new Env("历史红包统计");
 历史红包统计
 """
-
 import requests
 import sys
 import re
