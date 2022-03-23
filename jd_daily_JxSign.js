@@ -3,7 +3,6 @@
 20 1,8 * * * jd_jxqd.js
 更新时间：2021-7-31
 活动入口：京喜APP-我的-京喜签到
-
 已支持IOS双京东账号,Node.js支持N个京东账号
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 ============Quantumultx===============
