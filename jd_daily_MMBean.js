@@ -1,6 +1,5 @@
 /*
 // https://h5.m.jd.com/rn/42yjy8na6pFsq1cx9MJQ5aTgu3kX/index.html
-
 入口：APP首页-领京豆-升级赚京豆
 cron:21 9 * * *
 21 9 * * * https://github.com/wh1te3zzz/jdgaming/jd_daily_MMBean.js, tag=领京豆&早起福利, enabled=true
