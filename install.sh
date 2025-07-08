@@ -42,6 +42,10 @@ echo "=> 配置 /etc/sockd.conf..."
 cat > /etc/sockd.conf <<EOF
 logoutput: stdout syslog /var/log/sockd.log
 
+# 全局声明允许的 socks 认证方式
+socksmethod: username none
+
+# 内部接口和端口
 internal: 0.0.0.0 port = $PORT
 external: eth0
 
@@ -52,9 +56,7 @@ client pass {
 
 socks pass {
     from: 0.0.0.0/0 to: 0.0.0.0/0
-    clientmethod: username
-    method: username
-    user.privileged: root
+    socksmethod: username
     log: connect disconnect error
 }
 EOF
@@ -63,11 +65,12 @@ echo "=> 创建用户 $USER..."
 adduser -H -s /sbin/nologin $USER
 echo "$USER:$PASSWD" | chpasswd
 
+# 禁用密码复杂度限制（避免交互式输入）
+sed -i 's/^password.*/password    sufficient    pam_unix.so/' /etc/pam.d/passwd
+
 echo "=> 设置 sockd 开机启动..."
 rc-update add sockd default
 rc-service sockd start
-
-echo "=> 已跳过 iptables 配置（按需手动设置防火墙）"
 
 echo "=> 重启 sockd 服务..."
 rc-service sockd restart
