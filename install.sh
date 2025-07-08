@@ -65,15 +65,16 @@ echo "=> 创建用户 $USER..."
 adduser -H -s /sbin/nologin $USER
 echo "$USER:$PASSWD" | chpasswd
 
-# 禁用密码复杂度限制（避免交互式输入）
-sed -i 's/^password.*/password    sufficient    pam_unix.so/' /etc/pam.d/passwd
-
 echo "=> 设置 sockd 开机启动..."
 rc-update add sockd default
-rc-service sockd start
 
-echo "=> 重启 sockd 服务..."
+# 启动服务
+echo "=> 启动 sockd 服务..."
 rc-service sockd restart
+
+# 检查服务状态
+echo "=> 检查 sockd 服务状态..."
+rc-service sockd status
 
 echo "✅ SOCKS5 代理部署完成！"
 echo "IP 地址: $(hostname -I | awk '{print $1}')"
